@@ -1,0 +1,32 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+    margin: 20px 0;
+}
+  
+  th, td{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid white;
+}
+  
+  th{
+    background-color: black;
+}
+  
+tr:nth-child(even){
+    background-color: #222; /* Alternate row color */
+}
+  
+  tr:nth-child(odd){
+    background-color: #111; /* Alternate row color */
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+  
